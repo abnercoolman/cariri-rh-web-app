@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+
+import { useParams } from "react-router-dom";
 import { Header } from "../../components/Header";
 import {
   Container,
@@ -8,12 +10,15 @@ import {
   TituloConteudo,
   Dashboard,
 } from "./styles";
-import { MenuButton } from "../../components/MenuButton";
-import { QuickButtonsMain } from "../../components/QuickButtonsMain";
-import { QuickStats } from "../../components/QuickStats";
-import { CardDashBoard } from "../../components/CardDashBoard";
+import { LeftInfoFuncionario } from "./components/LeftInfoFuncionario";
+import { RightInfoFuncionario } from "./components/RightInfoFuncionario";
 
-export function TelaPrincipal() {
+import { MenuButton } from "../../components/MenuButton";
+
+export function TelaAtualizarFuncionario({ data }) {
+  const { funcionarioId } = useParams();
+  const selectedFuncionario = data.find((data) => data.id == funcionarioId);
+
   return (
     <Container>
       <Brand>
@@ -33,13 +38,14 @@ export function TelaPrincipal() {
       </Menu>
       <Content>
         <TituloConteudo>
-          <h1>Visão Geral</h1>
-          <QuickButtonsMain />
+          <h1>
+            Gestão de Funcionários / Perfil do Funcionário / {data.id}
+            {selectedFuncionario.nomeFuncionario}
+          </h1>
         </TituloConteudo>
-        <QuickStats />
         <Dashboard>
-          <CardDashBoard title="Funcionários em Treinamento" />
-          <CardDashBoard title="Candidatos" />
+          <LeftInfoFuncionario />
+          <RightInfoFuncionario data={data} />
         </Dashboard>
       </Content>
     </Container>

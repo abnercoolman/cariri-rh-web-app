@@ -69,6 +69,7 @@ export const TituloConteudo = styled.div`
 
 export const Dashboard = styled.div`
   width: 100%;
+  height: 80%;
   margin-top: 65px;
 
   /* vertical | horizontal */
@@ -78,6 +79,7 @@ export const Dashboard = styled.div`
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 25px;
 `;

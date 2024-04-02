@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import { Container } from "./styles";
 
 export function LinhaFuncionarioTabela({ data }) {
@@ -16,7 +17,7 @@ export function LinhaFuncionarioTabela({ data }) {
           <span className="material-symbols-outlined">expand_circle_down</span>
         </button>
         <div className="drop-content">
-          <a href="#">Ver Perfil</a>
+          <Link to={`/profile/${data.id}`}>Ver Perfil</Link>
           <div className="drop-content-line"></div>
           <a href="#">Editar Perfil</a>
         </div>

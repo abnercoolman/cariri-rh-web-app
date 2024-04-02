@@ -7,6 +7,7 @@ export const FUNCIONARIOS_MOCK = [
     dataAdmissao: "14/12/2023",
     categoriaFuncionario: "Full time",
     generoFuncionario: "Masculino",
+    imgPath: "../src/assets/profile_funcionario.png",
   },
 
   {
@@ -17,6 +18,7 @@ export const FUNCIONARIOS_MOCK = [
     dataAdmissao: "14/12/2023",
     categoriaFuncionario: "Remoto",
     generoFuncionario: "Masculino",
+    imgPath: "../src/assets/foto_01_dashboard_principal.png",
   },
 
   {
@@ -27,6 +29,7 @@ export const FUNCIONARIOS_MOCK = [
     dataAdmissao: "14/12/2023",
     categoriaFuncionario: "Full time",
     generoFuncionario: "Feminino",
+    imgPath: "../src/assets/foto_02_dashboard_principal.png",
   },
 
   {
@@ -37,6 +40,7 @@ export const FUNCIONARIOS_MOCK = [
     dataAdmissao: "14/12/2023",
     categoriaFuncionario: "Full time",
     generoFuncionario: "Masculino",
+    imgPath: "../src/assets/foto_03_dashboard_principal.png",
   },
 
   {
@@ -47,6 +51,7 @@ export const FUNCIONARIOS_MOCK = [
     dataAdmissao: "14/12/2023",
     categoriaFuncionario: "Full time",
     generoFuncionario: "Feminino",
+    imgPath: "../src/assets/foto_02_dashboard_principal.png",
   },
 
   {
@@ -57,6 +62,7 @@ export const FUNCIONARIOS_MOCK = [
     dataAdmissao: "14/12/2023",
     categoriaFuncionario: "Full time",
     generoFuncionario: "Masculino",
+    imgPath: "../src/assets/profile_funcionario.png",
   },
 
   {
@@ -67,5 +73,6 @@ export const FUNCIONARIOS_MOCK = [
     dataAdmissao: "14/12/2023",
     categoriaFuncionario: "Full time",
     generoFuncionario: "Feminino",
+    imgPath: "../src/assets/foto_02_dashboard_principal.png",
   },
 ];

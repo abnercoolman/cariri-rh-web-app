@@ -2,7 +2,8 @@
 import { Routes, Route } from "react-router-dom";
 import { TelaFuncionarios } from "../pages/TelaFuncionarios";
 import { TelaPrincipal } from "../pages/TelaPrincipal";
-// import { TelaPerfilFuncionario } from "../pages/TelaPerfilFuncionario";
+import { TelaPerfilFuncionario } from "../pages/TelaPerfilFuncionario";
+import { TelaAtualizarFuncionario } from "../pages/TelaAtualizarFuncionario";
 
 export function AppRoutes({ data }) {
   return (
@@ -14,10 +15,15 @@ export function AppRoutes({ data }) {
       <Route path="/funcionarios" element={<TelaFuncionarios data={data} />} />
 
       {/* Tela Perfil Funcionário */}
-      {/* <Route
+      <Route
         path="/profile/:funcionarioId"
-        element={<TelaPerfilFuncionario />}
-      /> */}
+        element={<TelaPerfilFuncionario data={data} />}
+      />
+
+      <Route
+        path="/atualizar/:funcionarioId"
+        element={<TelaAtualizarFuncionario data={data} />}
+      />
     </Routes>
   );
 }
