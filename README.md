@@ -4,8 +4,8 @@ Este repositório consiste do desenvolvimento de uma aplicação web com foco na
 
 ## Autores
 
-- Abner Colman (_[@abnercoolman](https://www.github.com/abnercoolman)_);
-- Pedro Hilbert (_[@PedroHilbert](https://github.com/PedroHilbert)_).
+ - Mat:2022010446 - Abner Colman Mendonça - (_[@abnercoolman](https://www.github.com/abnercoolman)_);
+ - Mat:2022012191 - Pedro Hilbert Silva Guerra - (_[@PedroHilbert](https://github.com/PedroHilbert)_).
 
 ## 1. Objetivo
 
@@ -39,13 +39,21 @@ Divisão do projeto realizado por meio das seguintes páginas (_“pages”_) e 
   - Menu;
   - Dashboard;
   - Footer.
+- **Tela Login:**
+  - Header;
+  - Main;
+  - Footer.
+- **Tela Cadastro:**
+  - Header;
+  - Main;
+  - Footer.
 
 ### 2.2. Prazos
 
 Prazo proposto para desenvolvimento completo do projeto: 6 semanas (1 mês e meio):
 
 - **Início:** 23/02/2024.
-- **Final:** 28/03/2024.
+- **Final:** 03/04/2024.
 
 ## 3. Funcionalidades
 
