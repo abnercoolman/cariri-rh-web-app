@@ -1,0 +1,156 @@
+
+*{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+header{
+    background-color: #082777;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+footer{
+    background-color: #082777;
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BaseHeader{
+    background-color: #082777;
+    width: 100%; /* LARGURA */
+    height: 100px; /* ALTURA */
+}
+
+.BaseFooter{
+    /* display: ;*/
+    background-color: #082777;
+    width: 100%; 
+    height: 80px;
+    /* height: 50px; */
+    padding: 0px 0px 0px 0px;
+    
+}
+
+#TituloPag{
+    color: rgb(255, 255, 255);
+    padding: 26px 0px 0px 72px;
+    font-family: "Poppins";
+    font-size: 200%; /* Era 48px */
+    line-height: 72px;
+    text-align: left;
+}
+
+#TituloCentro{
+    color:#082777;
+    font-size: 64px;
+}
+
+.Login_Cadastre{
+    display: flex;
+    font-family: "Poppins";
+}
+
+.LinhaVertical{
+    width: 2px;
+    height: 42px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.LinhaHorizontal {
+    border-color: #F7AC25;
+    border-width: 2px;
+    width: 50px;
+}
+
+
+
+
+/* -----------  TELA LOGIN  ----------- */
+
+
+#B_Login{
+    color: #4B93E7;
+    font-size: 40px;
+}
+
+#B_TelaCadastrase{
+    color: #4B93E7;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.B_entrar{
+    width: 40px; /* LARGURA */
+    height: 19px; /* ALTURA */
+    color: #F7AC25;
+    padding: 0px 0px 0px 0px;
+}
+
+.GP_2645{
+    display: block;
+    width: 300px; /* LARGURA */
+    height: 300px; /* ALTURA */
+    padding: 0px 0px 0px 0px;
+    margin: 90px 0px 50px 0px;
+
+}
+
+.ClassPai_PreencherCampos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 5px 0px;
+}
+
+.preencherCampo{
+    display: block;
+}
+
+.EsquecerSenha{
+    color: #082777;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
+/* -----------  TELA CADASTRE-SE  ----------- */
+
+#B_TelaLogin{
+    color: #4B93E7;
+    text-decoration: none;
+}
+
+.GP_2646{
+    height: 290px;
+    width: 300px;  /* ALTURA */
+    padding: 0px 0px 0px 0px;
+    margin: 90px 0px 50px 0px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.CamposCAD{
+    height: 200px;
+    width: 200px;  /* ALTURA */
+}
+
+#B_Cadastrase{
+    color: #4B93E7;
+    font-size: 40px;
+}
+
